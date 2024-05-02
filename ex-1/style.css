@@ -3,5 +3,40 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-color: gray;
+}
+:root {
+  --Branding-Color: #ff7f50;
+  --Secondary-Color: cornsilk;
+  --Highlight-Color: #d2691e;
+  --Muted-Color: #a9a9a9;
 
-/* Start coding here */
+  --Level1: 1px;
+  --Level2: 5px;
+  --Level3: 10px;
+  --Level4: 15px;
+  --Level5: 20px;
+
+  --Level-1: 1px;
+  --Level-2: 5px;
+  --Level-3: 10px;
+  --Level-4: 15px;
+  --Level-5: 20px;
+
+  --Samll: 12px;
+  --Medium: 16px;
+  --Large: 20px;
+  --Extra-Large: 30px;
+  --Double-Extra-Large: 50px;
+  --Triple-Extra-Large: 100px;
+}
+
+.introduction {
+  color: var(--Secondary-Color);
+  padding: var(--Level-5);
+}
+.introduction h1 {
+  color: var(--Branding-Color);
+  font-size: var(--Triple-Extra-Large);
+}
